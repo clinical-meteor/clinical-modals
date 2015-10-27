@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:modals',
-  version: '1.0.5',
+  version: '1.0.6',
   summary: 'Modal dialogs for the Clinical Meteor track.',
   git: 'https://github.com/clinical-meteor/clinical-modals',
   documentation: 'README.md'
@@ -34,5 +34,6 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use('tinytest');
   api.use('clinical:keybindings');
+  api.use('clinical:verification');
   api.addFiles('tests/modals.js');
 });
