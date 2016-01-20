@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:modals',
-  version: '1.0.6',
+  version: '1.0.7',
   summary: 'Modal dialogs for the Clinical Meteor track.',
   git: 'https://github.com/clinical-meteor/clinical-modals',
   documentation: 'README.md'
@@ -15,10 +15,6 @@ Package.onUse(function (api) {
 
   api.addFiles('client/modals.less', 'client');
   api.addFiles('client/modals.js', 'client');
-
-  api.addFiles('client/configListModal/configListModal.html', 'client');
-  api.addFiles('client/configListModal/configListModal.js', 'client');
-  api.addFiles('client/configListModal/configListModal.less', 'client');
 
   api.addFiles('client/confirmModal/confirmModal.html', 'client');
   api.addFiles('client/confirmModal/confirmModal.js', 'client');
